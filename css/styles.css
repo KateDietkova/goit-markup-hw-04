@@ -405,7 +405,9 @@ img {
 }
 
         /* employee social-link hover and company-social-link hover */
-.social-link:hover {
+
+.social-link:hover,
+.social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -431,7 +433,8 @@ img {
     color: var(--icon-color);    
 }
 
-.company-partner-link:hover {
+.company-partner-link:hover,
+.company-partner-link:focus {
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
 }
